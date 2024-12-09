@@ -25,9 +25,11 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${poppins.className} ${inter.className}`}>
+        <div className="max-w-[1400px] mx-auto bg-white">
          <Header />  
         {children}
         <Footer />
+        </div>
       </body>
     </html>
   );
