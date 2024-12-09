@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='px-6 md:px-12 py-8 bg-[#2A254B] mt-10'>
         <div className="flex flex-wrap gap-12 md:gap-[100px] lg:gap-[200px]">
           {/* Menu Section */}
-          <div className="text-white w-full sm:w-auto">
+          <div className="text-white w-full sm:w-auto space-y-4">
             <h1 className="text-lg md:text-xl font-bold">Menu</h1>
             <div className='space-y-2'>
               <h1><Link href={'/'}>New Arrivals</Link></h1>
@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
 
           {/* Categories Section */}
-          <div className="text-white w-full sm:w-auto">
+          <div className="text-white w-full sm:w-auto space-y-4">
             <h1 className="text-lg md:text-xl font-bold">Categories</h1>
             <div className='space-y-2'>
               <h1><Link href={'/'}>Crockery</Link></h1>
@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
 
           {/* Company Section */}
-          <div className="text-white w-full sm:w-auto">
+          <div className="text-white w-full sm:w-auto space-y-4">
             <h1 className="text-lg md:text-xl font-bold">Our Company</h1>
             <div className='space-y-2'>
               <h1><Link href='/about'>About us</Link></h1>
@@ -51,7 +51,7 @@ const Footer = () => {
               <input
                 type="text"
                 placeholder="your@email.com"
-                className='w-full sm:w-[250px] lg:w-[300px] h-[48px] p-2 text-white bg-transparent opacity-35 border border-white rounded-md'
+                className='w-full sm:w-[250px] lg:w-[300px] h-[48px] p-2 text-[#FFFFFF] opacity-35 border border-white rounded-md'
               />
               <button className='mt-2 sm:mt-0 sm:ml-2 w-full sm:w-[100px] h-[48px] bg-white text-[#2A254B] rounded-md'>
                 Sign up
