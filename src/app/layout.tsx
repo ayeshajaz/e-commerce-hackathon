@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} ${inter.className}`}>
+        className={`${montserrat.className} ${questrial.className}`}>
         <div className="max-w-[1400px] mx-auto bg-white">
          <Header />  
         {children}
