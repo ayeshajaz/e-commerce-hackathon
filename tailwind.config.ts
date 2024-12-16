@@ -13,8 +13,8 @@ const config: Config = {
         },
   
         fontFamily: {
-          poppins: ['Montserrat','sans-serif'],
-          inter: [' Questrial','sans-serif']
+          montserrat: ['Montserrat','sans-serif'],
+          questrial: [' Questrial','sans-serif']
         }, 
         height: {
           '584': '584px',
