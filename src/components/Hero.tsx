@@ -9,7 +9,7 @@ const Hero = () => {
           <div className='flex flex-col md:flex-row lg:ml-28'>
             <div className='w-full md:w-[60%] h-auto md:h-[580px] border border-black bg-[#2A254B] text-white px-4 md:px-12 py-16 md:py-12 flex flex-col justify-between'>
               <div>
-                <h1 className='text-xl md:text-3xl md:text-left'>
+                <h1 className='text-xl md:text-3xl md:text-left font-montserrat'>
                   The furniture brand for the <br /> future, with the timeless designs
                 </h1>
                 <div className='flex justify-center md:justify-start'>
