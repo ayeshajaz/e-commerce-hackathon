@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import {Inter, Poppins} from "next/font/google";
+import {Montserrat, Questrial} from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const inter = Inter({subsets: ['latin'] });
+const montserrat = Montserrat({subsets: ['latin'] });
 
-const poppins = Poppins({
+const questrial = Questrial({
   subsets: ['latin'],
   weight: ['400', '500', '700']
 });
