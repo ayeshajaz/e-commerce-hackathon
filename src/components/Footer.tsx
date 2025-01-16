@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-wrap gap-12 md:gap-[100px] lg:gap-[200px]">
           {/* Menu Section */}
           <div className="text-white w-full sm:w-auto space-y-4">
-            <h1 className="text-lg md:text-xl font-medium">Menu</h1>
+            <h1 className="text-lg md:text-xl font-bold">Menu</h1>
             <div className='space-y-2'>
               <h1><Link href={'/'}>New Arrivals</Link></h1>
               <h1><Link href={'/'}>Best sellers</Link></h1>
@@ -22,7 +22,7 @@ const Footer = () => {
 
           {/* Categories Section */}
           <div className="text-white w-full sm:w-auto space-y-4">
-            <h1 className="text-lg md:text-xl font-medium">Categories</h1>
+            <h1 className="text-lg md:text-xl font-bold">Categories</h1>
             <div className='space-y-2'>
               <h1><Link href={'/'}>Crockery</Link></h1>
               <h1><Link href={'/'}>Furniture</Link></h1>
@@ -34,7 +34,7 @@ const Footer = () => {
 
           {/* Company Section */}
           <div className="text-white w-full sm:w-auto space-y-4">
-            <h1 className="text-lg md:text-xl font-medium">Our Company</h1>
+            <h1 className="text-lg md:text-xl font-bold">Our Company</h1>
             <div className='space-y-2'>
               <h1><Link href='/about'>About us</Link></h1>
               <h1><Link href={'/'}>Vacancies</Link></h1>
@@ -46,7 +46,7 @@ const Footer = () => {
 
           {/* Mailing List Section */}
           <div className="text-white w-full sm:w-auto">
-            <h1 className="text-lg md:text-xl font-medium">Join our mailing list</h1>
+            <h1 className="text-lg md:text-xl font-bold">Join our mailing list</h1>
             <div className='mt-4 text-white'>
               <input
                 type="text"
