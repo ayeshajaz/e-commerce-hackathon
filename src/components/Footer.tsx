@@ -51,7 +51,7 @@ const Footer = () => {
               <input
                 type="text"
                 placeholder="your@email.com"
-                className='w-full sm:w-[250px] lg:w-[300px] h-[48px] p-2 text-white opacity-35 border border-white rounded-md'
+                className='w-full sm:w-[250px] lg:w-[300px] h-[48px] p-2 text-white border border-white rounded-md'
               />
               <button className='mt-2 sm:mt-0 sm:ml-2 w-full sm:w-[100px] h-[48px] bg-white text-[#2A254B] rounded-md'>
                 Sign up
