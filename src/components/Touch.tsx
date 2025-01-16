@@ -35,7 +35,7 @@ const Touch = () => {
                 height={800}
                 width={800}
                 alt="chair"
-                className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
+                className="w-full h-full object-cover transition-transform duration-300 ease-in-out"
               />
             </div>
           </div>
