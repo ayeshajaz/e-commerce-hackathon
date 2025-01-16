@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       <div className='px-6 md:px-12 py-8 bg-[#2A254B] mt-10'>
-        <div className="flex flex-wrap justify-between gap-12 md:gap-[100px] lg:gap-[200px]">
+        <div className="flex flex-wrap justify-evenly gap-12 md:gap-[100px] lg:gap-[200px]">
           {/* Menu Section */}
           <div className="text-white w-full sm:w-auto space-y-4">
             <h1 className="text-lg md:text-xl font-bold">Menu</h1>
