@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
 
           {/* Mailing List Section */}
-          <div className="text-white w-full sm:w-auto flex flex-row">
+          <div className="text-white w-full sm:w-auto">
             <h1 className="text-lg md:text-xl font-bold">Join our mailing list</h1>
             <div className='mt-4 text-white'>
               <input
