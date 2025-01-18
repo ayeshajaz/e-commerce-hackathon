@@ -13,7 +13,7 @@ const Hero = () => {
                   The furniture brand for the <br /> future, with the timeless designs
                 </h1>
                 <div className='flex justify-center md:justify-start font-questrial'>
-                  <button className='w-[170px] h-[56px] bg-gray-500 text-white border border-gray-600 font-bold mt-12'>
+                  <button className='w-[170px] h-[56px] bg-gray-500 text-white border border-gray-600 mt-12'>
                     View collection
                   </button>
                 </div>
